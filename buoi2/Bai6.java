@@ -61,7 +61,7 @@ public class Bai6 {
 
     public static void sapTang(int a[]) {
         Arrays.sort(a);
-        System.out.println("Mang tang dan: " + Arrays.toString(a));
+        System.out.println("\nMang tang dan: " + Arrays.toString(a));
     }
 
     public static void main(String[] args) {
@@ -80,3 +80,4 @@ public class Bai6 {
 
     }
 }
+
