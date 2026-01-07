@@ -72,10 +72,10 @@ public class Bai6 {
         int a[] = new int[n];
         nhapMang(a);
         xuatMang(a);
-        System.out.print("Vi tri la: " + timViTri(a));
-        System.out.print("Phan tu lon nhat: " + timMax(a));
-        System.out.print("Phan tu nho nhat: " + timMin(a));
-        System.out.print("Vi tri phan tu lon nhat: " + timViTriMax(a));
+        System.out.print("\nVi tri la: " + timViTri(a));
+        System.out.print("\nPhan tu lon nhat: " + timMax(a));
+        System.out.print("\nPhan tu nho nhat: " + timMin(a));
+        System.out.print("\nVi tri phan tu lon nhat: " + timViTriMax(a));
         sapTang(a);
 
     }
