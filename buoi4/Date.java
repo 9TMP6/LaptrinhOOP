@@ -42,7 +42,7 @@ public class Date {
             return;
         switch (this.month) {
             case 2:
-                if (isLeapYear(this.year) && day <= 29)
+                if ((isLeapYear(this.year) && day <= 29) || day<=28)
                     this.day = day;
                 break;
             case 4:
@@ -53,7 +53,8 @@ public class Date {
                     this.day = day;
                 break;
             default:
-                this.day = 31;
+                this.day = day;
+                break;
         }
 
     }
@@ -62,3 +63,4 @@ public class Date {
         return this.day + "/" + this.month + "/" + this.year;
     }
 }
+
